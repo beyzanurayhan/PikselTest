@@ -37,6 +37,8 @@
             this.btn_turquoise = new System.Windows.Forms.Button();
             this.btn_purple = new System.Windows.Forms.Button();
             this.btn_gray = new System.Windows.Forms.Button();
+            this.btn_startTest = new System.Windows.Forms.Button();
+            this.btn_stopTest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_black
@@ -75,7 +77,7 @@
             // 
             // btn_green
             // 
-            this.btn_green.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn_green.BackColor = System.Drawing.Color.Lime;
             this.btn_green.Location = new System.Drawing.Point(12, 144);
             this.btn_green.Name = "btn_green";
             this.btn_green.Size = new System.Drawing.Size(110, 110);
@@ -139,20 +141,41 @@
             this.btn_gray.Click += new System.EventHandler(this.btn_gray_Click);
             this.btn_gray.KeyUp += new System.Windows.Forms.KeyEventHandler(this.btn_gray_KeyUp);
             // 
+            // btn_startTest
+            // 
+            this.btn_startTest.Location = new System.Drawing.Point(384, 12);
+            this.btn_startTest.Name = "btn_startTest";
+            this.btn_startTest.Size = new System.Drawing.Size(108, 30);
+            this.btn_startTest.TabIndex = 12;
+            this.btn_startTest.Text = "Testi Başlat";
+            this.btn_startTest.UseVisualStyleBackColor = true;
+            this.btn_startTest.Click += new System.EventHandler(this.btn_startTest_Click);
+            // 
+            // btn_stopTest
+            // 
+            this.btn_stopTest.Location = new System.Drawing.Point(384, 56);
+            this.btn_stopTest.Name = "btn_stopTest";
+            this.btn_stopTest.Size = new System.Drawing.Size(108, 29);
+            this.btn_stopTest.TabIndex = 13;
+            this.btn_stopTest.Text = "Testi Bitir";
+            this.btn_stopTest.UseVisualStyleBackColor = true;
+            // 
             // PikselTestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 398);
+            this.ClientSize = new System.Drawing.Size(512, 398);
+            this.Controls.Add(this.btn_stopTest);
+            this.Controls.Add(this.btn_startTest);
             this.Controls.Add(this.btn_gray);
             this.Controls.Add(this.btn_purple);
             this.Controls.Add(this.btn_turquoise);
-            this.Controls.Add(this.btn_yellow);
             this.Controls.Add(this.btn_blue);
             this.Controls.Add(this.btn_green);
             this.Controls.Add(this.btn_red);
             this.Controls.Add(this.btn_white);
             this.Controls.Add(this.btn_black);
+            this.Controls.Add(this.btn_yellow);
             this.MinimumSize = new System.Drawing.Size(410, 437);
             this.Name = "PikselTestForm";
             this.Text = "Ölü Piksel Testi";
@@ -171,5 +194,7 @@
         private Button btn_turquoise;
         private Button btn_purple;
         private Button btn_gray;
+        private Button btn_startTest;
+        private Button btn_stopTest;
     }
 }

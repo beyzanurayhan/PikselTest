@@ -11,22 +11,17 @@ namespace PikselTest
 
         private void PikselTestForm_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Test işlemine başlamadan önce lütfen ekranınızın temiz olduğundan emin olunuz.");
+            
+
         }
-        
+
+
 
         private void btn_black_Click(object sender, EventArgs e)
         {
             FormBorderStyle = FormBorderStyle.None;
             btn_black.Dock = DockStyle.Fill;
-            btn_white.Visible = false;
-            btn_red.Visible = false;
-            btn_green.Visible = false;
-            btn_blue.Visible = false;
-            btn_yellow.Visible = false;
-            btn_turquoise.Visible = false;
-            btn_purple.Visible = false;
-            btn_gray.Visible = false;
+            btn_black.BringToFront();
             MessageBox.Show("Çıkmak için escape tuşuna basınız.");
 
         }
@@ -35,14 +30,7 @@ namespace PikselTest
         {
             FormBorderStyle = FormBorderStyle.None;
             btn_white.Dock = DockStyle.Fill;
-            btn_black.Visible = false;
-            btn_red.Visible = false;
-            btn_green.Visible = false;
-            btn_blue.Visible = false;
-            btn_yellow.Visible = false;
-            btn_turquoise.Visible = false;
-            btn_purple.Visible = false;
-            btn_gray.Visible = false;
+            btn_white.BringToFront();
             MessageBox.Show("Çıkmak için escape tuşuna basınız.");
         }
 
@@ -50,105 +38,56 @@ namespace PikselTest
         {
             FormBorderStyle = FormBorderStyle.None;
             btn_red.Dock = DockStyle.Fill;
-            btn_black.Visible = false;
-            btn_white.Visible = false;
-            btn_green.Visible = false;
-            btn_blue.Visible = false;
-            btn_yellow.Visible = false;
-            btn_turquoise.Visible = false;
-            btn_purple.Visible = false;
-            btn_gray.Visible = false;
-            MessageBox.Show("Çıkmak için escape tuşuna basınız.");
+            btn_red.BringToFront();
+            MessageBox.Show("Çıkmak için escape tuşuna basınız.", "Piksel Testi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void btn_green_Click(object sender, EventArgs e)
         {
             FormBorderStyle = FormBorderStyle.None;
             btn_green.Dock = DockStyle.Fill;
-            btn_black.Visible = false;
-            btn_red.Visible = false;
-            btn_white.Visible = false;
-            btn_blue.Visible = false;
-            btn_yellow.Visible = false;
-            btn_turquoise.Visible = false;
-            btn_purple.Visible = false;
-            btn_gray.Visible = false;
-            MessageBox.Show("Çıkmak için escape tuşuna basınız.");
+            btn_green.BringToFront();
+            MessageBox.Show("Çıkmak için escape tuşuna basınız.", "Piksel Testi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void btn_blue_Click(object sender, EventArgs e)
         {
             FormBorderStyle = FormBorderStyle.None;
             btn_blue.Dock = DockStyle.Fill;
-            btn_black.Visible = false;
-            btn_red.Visible = false;
-            btn_green.Visible = false;
-            btn_white.Visible = false;
-            btn_yellow.Visible = false;
-            btn_turquoise.Visible = false;
-            btn_purple.Visible = false;
-            btn_gray.Visible = false;
-            MessageBox.Show("Çıkmak için escape tuşuna basınız.");
+            btn_blue.BringToFront();
+            MessageBox.Show("Çıkmak için escape tuşuna basınız.", "Piksel Testi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void btn_yellow_Click(object sender, EventArgs e)
         {
             FormBorderStyle = FormBorderStyle.None;
-            btn_yellow.Dock = DockStyle.Fill;
-            btn_black.Visible = false;
-            btn_red.Visible = false;
-            btn_green.Visible = false;
-            btn_blue.Visible = false;
-            btn_white.Visible = false;
-            btn_turquoise.Visible = false;
-            btn_purple.Visible = false;
-            btn_gray.Visible = false;
-            MessageBox.Show("Çıkmak için escape tuşuna basınız.");
+            btn_yellow.Dock = DockStyle.Fill;            
+            btn_yellow.BringToFront();
+            MessageBox.Show("Çıkmak için escape tuşuna basınız.", "Piksel Testi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void btn_turquoise_Click(object sender, EventArgs e)
         {
             FormBorderStyle = FormBorderStyle.None;
             btn_turquoise.Dock = DockStyle.Fill;
-            btn_black.Visible = false;
-            btn_red.Visible = false;
-            btn_green.Visible = false;
-            btn_blue.Visible = false;
-            btn_yellow.Visible = false;
-            btn_white.Visible = false;
-            btn_purple.Visible = false;
-            btn_gray.Visible = false;
-            MessageBox.Show("Çıkmak için escape tuşuna basınız.");
+            btn_turquoise.BringToFront();
+            MessageBox.Show("Çıkmak için escape tuşuna basınız.", "Piksel Testi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void btn_purple_Click(object sender, EventArgs e)
         {
             FormBorderStyle = FormBorderStyle.None;
             btn_purple.Dock = DockStyle.Fill;
-            btn_black.Visible = false;
-            btn_red.Visible = false;
-            btn_green.Visible = false;
-            btn_blue.Visible = false;
-            btn_yellow.Visible = false;
-            btn_turquoise.Visible = false;
-            btn_white.Visible = false;
-            btn_gray.Visible = false;
-            MessageBox.Show("Çıkmak için escape tuşuna basınız.");
+            btn_purple.BringToFront();
+            MessageBox.Show("Çıkmak için escape tuşuna basınız.", "Piksel Testi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void btn_gray_Click(object sender, EventArgs e)
         {
             FormBorderStyle = FormBorderStyle.None;
             btn_gray.Dock = DockStyle.Fill;
-            btn_black.Visible = false;
-            btn_red.Visible = false;
-            btn_green.Visible = false;
-            btn_blue.Visible = false;
-            btn_yellow.Visible = false;
-            btn_turquoise.Visible = false;
-            btn_purple.Visible = false;
-            btn_white.Visible = false;
-            MessageBox.Show("Çıkmak için escape tuşuna basınız.");
+            btn_gray.BringToFront();
+            MessageBox.Show("Çıkmak için escape tuşuna basınız.", "Piksel Testi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
 
@@ -158,14 +97,9 @@ namespace PikselTest
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 btn_black.Dock = DockStyle.None;
-                btn_white.Visible = true;
-                btn_red.Visible = true;
-                btn_green.Visible = true;
-                btn_blue.Visible = true;
-                btn_yellow.Visible = true;
-                btn_turquoise.Visible = true;
-                btn_purple.Visible = true;
-                btn_gray.Visible = true;
+                btn_black.SendToBack();
+
+                Size = new Size(410, 437);
             }
         }
 
@@ -175,14 +109,7 @@ namespace PikselTest
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 btn_white.Dock = DockStyle.None;
-                btn_black.Visible = true;
-                btn_red.Visible = true;
-                btn_green.Visible = true;
-                btn_blue.Visible = true;
-                btn_yellow.Visible = true;
-                btn_turquoise.Visible = true;
-                btn_purple.Visible = true;
-                btn_gray.Visible = true;
+                btn_white.SendToBack();
             }
         }
 
@@ -192,14 +119,7 @@ namespace PikselTest
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 btn_red.Dock = DockStyle.None;
-                btn_black.Visible = true;
-                btn_white.Visible = true;
-                btn_green.Visible = true;
-                btn_blue.Visible = true;
-                btn_yellow.Visible = true;
-                btn_turquoise.Visible = true;
-                btn_purple.Visible = true;
-                btn_gray.Visible = true;
+                btn_red.SendToBack();
             }
         }
 
@@ -209,14 +129,7 @@ namespace PikselTest
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 btn_green.Dock = DockStyle.None;
-                btn_black.Visible = true;
-                btn_white.Visible = true;
-                btn_red.Visible = true;
-                btn_blue.Visible = true;
-                btn_yellow.Visible = true;
-                btn_turquoise.Visible = true;
-                btn_purple.Visible = true;
-                btn_gray.Visible = true;
+                btn_green.SendToBack();
             }
         }
 
@@ -226,14 +139,7 @@ namespace PikselTest
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 btn_blue.Dock = DockStyle.None;
-                btn_black.Visible = true;
-                btn_white.Visible = true;
-                btn_green.Visible = true;
-                btn_red.Visible = true;
-                btn_yellow.Visible = true;
-                btn_turquoise.Visible = true;
-                btn_purple.Visible = true;
-                btn_gray.Visible = true;
+                btn_blue.SendToBack();
             }
         }
 
@@ -243,14 +149,7 @@ namespace PikselTest
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 btn_yellow.Dock = DockStyle.None;
-                btn_black.Visible = true;
-                btn_white.Visible = true;
-                btn_green.Visible = true;
-                btn_blue.Visible = true;
-                btn_red.Visible = true;
-                btn_turquoise.Visible = true;
-                btn_purple.Visible = true;
-                btn_gray.Visible = true;
+                btn_yellow.SendToBack();
             }
         }
 
@@ -260,14 +159,7 @@ namespace PikselTest
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 btn_turquoise.Dock = DockStyle.None;
-                btn_black.Visible = true;
-                btn_white.Visible = true;
-                btn_green.Visible = true;
-                btn_blue.Visible = true;
-                btn_yellow.Visible = true;
-                btn_red.Visible = true;
-                btn_purple.Visible = true;
-                btn_gray.Visible = true;
+                btn_turquoise.SendToBack();
             }
         }
 
@@ -277,14 +169,7 @@ namespace PikselTest
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 btn_purple.Dock = DockStyle.None;
-                btn_black.Visible = true;
-                btn_white.Visible = true;
-                btn_green.Visible = true;
-                btn_blue.Visible = true;
-                btn_yellow.Visible = true;
-                btn_red.Visible = true;
-                btn_turquoise.Visible = true;
-                btn_gray.Visible = true;
+                btn_purple.SendToBack();
             }
         }
 
@@ -294,15 +179,14 @@ namespace PikselTest
             {
                 FormBorderStyle = FormBorderStyle.Sizable;
                 btn_gray.Dock = DockStyle.None;
-                btn_black.Visible = true;
-                btn_white.Visible = true;
-                btn_green.Visible = true;
-                btn_blue.Visible = true;
-                btn_yellow.Visible = true;
-                btn_red.Visible = true;
-                btn_turquoise.Visible = true;
-                btn_purple.Visible = true;
+                btn_gray.SendToBack();
             }
+        }
+
+        private void btn_startTest_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test işlemine başlamadan önce lütfen ekranınızın temiz olduğundan emin olunuz.", "Piksel Testi",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
